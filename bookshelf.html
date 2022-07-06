@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bookshelf Apps</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <h1>BookShelf Apps</h1>
+      <ul>
+        <form id="searchBook">
+        <li> <input id="searchBookTitle" type="search" placeholder="Masukan Judul Buku"></li>
+        <li><button id="searchSubmit" type="submit">Cari</button></li>
+      </form>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+  <section class="input_section">
+    <h2>Masukkan Buku Baru</h2>
+    <form id="inputBook">
+      <div class="input">
+        <label for="inputBookTitle">Judul</label>
+        <input id="inputBookTitle" type="text" required>
+      </div>
+      <div class="input">
+        <label for="inputBookAuthor">Penulis</label>
+        <input id="inputBookAuthor" type="text" required>
+      </div>
+      <div class="input">
+        <label for="inputBookYear">Tahun</label>
+        <input id="inputBookYear" type="number" required>
+      </div>
+      <div class="input_inline">
+        <label for="inputBookComplete">Selesai dibaca</label>
+        <input id="inputBookIsComplete" type="checkbox">
+      </div>
+      <button id="bookSubmit" type="submit">Masukkan Buku ke rak </button>
+    </form>
+  </section>
+
+  <section class="book_shelf">
+    <h2>Belum selesai dibaca</h2>
+    <div id="incompleteBookshelfList" class="book_list">
+    <!-- <article class="book_item" >
+      <h3>Book Title</h3>
+      <p>Penulis :</p>
+      <p>Tahun :</p>
+      <div class="action">
+        <button class="greenDone">Selesai dibaca</button>
+        <button class="redTrash">Hapus Buku</button>
+        <button class="blueEdit">Edit Buku</button>
+      </div>
+    </article> -->
+  </div>
+  </section>
+
+  <section class="book_shelf">
+    <h2>Selesai dibaca</h2>
+    <div id="completeBookshelfList" class="book_list">
+    <!-- <article class="book_item" >
+      <h3>Book Title</h3>
+      <p>Penulis :</p>
+      <p>Tahun :</p>
+      <div class="action">
+        <button class="undoGreen">Belum selesai dibaca</button>
+        <button class="redTrash">Hapus Buku</button>
+      </div>
+    </article> -->
+  </div>
+  </section>
+  <section>
+    <footer id="footer">
+      <ul><li><a href="https://www.linkedin.com/in/misnosugianto48/">Linkedin</a></li></ul>
+      <h4>Copyright 2022, Dicoding Bookshelf Apps.</h4>
+    </footer>
+  </section>
+</main>
+
+<script src="main.js"></script>
+
+</body>
+</html>

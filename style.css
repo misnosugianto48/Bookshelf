@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+background: #F9CEEE;
+}
+
+body, input, button {
+font-family: ' Lato', sans-serif;
+}
+
+header > nav > h1{
+width: 200px;
+margin-left: -25px;
+border: solid black;
+box-shadow: 2.5px 2.5px 0.2px black;
+text-align: center;
+}
+
+nav {
+display: flex;
+justify-content: space-around; 
+top: 0;
+width: 100%;
+background-color:#F9CEEE;
+}
+
+nav > ul > form{
+display: flex;
+list-style: none;
+width:100%;
+justify-content: space-around;
+}
+
+nav > ul > form > li{
+padding: 5px;
+
+}
+
+nav > ul > form > li > input{
+    width: 230px;
+    padding: 3px;
+    height:30px;
+    border-radius: 2px;
+    color: #444;
+    outline: none;
+}
+
+nav > ul > form >  li > button{
+    width: 60px;
+    height: 30px;
+    padding: 3px;
+    border: none;
+    background-color: #FF5C8D;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 0.2px black;
+  /* text-transform: uppercase; */
+    font-weight: 700;
+    color:white;
+}
+
+main{
+    max-width:1000px;
+    width: 80%;
+    margin: 0 auto;
+    padding:20px;
+}
+
+
+.input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid #FF5C8D;
+    border-radius: 5px;
+    background: #FFF2F9;
+}
+
+.input_section > h2 {
+    text-align: center;
+    color: #0C1E7F;
+}
+
+.input_section > form > .input {
+    margin: 8px 0;
+}
+
+.input_section > form > button {
+    background-color: #FF5C8D;
+    color: white;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2.5px 2.5px 0.2px black;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.input_section > form > button > span {
+    font-weight: bold;
+}
+
+.input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+    color: #0C1E7F;
+    font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+    color: #0C1E7F;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: auto;
+}
+
+.book_shelf {
+    margin: 16px 0 0 0;
+    border: 1px solid #FF5C8D;
+    padding: 16px;
+    border-radius: 5px;
+    background:#FFF2F9;
+}
+
+.book_shelf > h2 {
+    color: #0C1E7F;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid #FF5C8D;
+    border-radius: 5px;
+    margin: 10px 0;
+    background:#FFC0D3;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    box-shadow: 2.5px 2.5px 0.2px black;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.book_shelf > .book_list > .book_item > .action > .undoGreen {
+    background-color: #3EC70B;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .greenDone {
+    background-color: #3EC70B;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .redTrash {
+    background-color: #FF1C2C;
+    color: white;
+}
+
+#footer{
+    margin-top: 50px;
+    background-color:  #F7F5F2;;
+    padding: 3px;
+    height: 80px;
+}
+
+#footer ul{
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer li {
+    padding: 0 20px;
+    list-style: none;
+
+}
+
+#footer a{
+    text-decoration: none;
+    color: #0C1E7F;
+    font-weight: 700;
+}
+
+#footer h4{
+    margin-top: -10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    color: #444;
+    padding: 0 20px;
+}
