@@ -200,6 +200,7 @@ function loadDataFromStorage() {
       bookshelfs.push(doBook);
     }
   }
+//   jangan lupa dengan function dibawah, agar data bisa dirender
   document.dispatchEvent(new Event(RENDER_EVENT));
 }
 
