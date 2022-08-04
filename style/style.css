@@ -174,14 +174,14 @@ main{
 .book_shelf > .book_list > .book_item > .action > button {
     border: 0;
     padding: 5px;
-    margin: 0 5px 0 0;
+    margin: 0 7px 0 0;
     cursor: pointer;
     margin-left: auto;
 }
 
 .book_shelf > .book_list > .book_item > .action > .undoGreen {
-    width:30px;
-    height:30px;
+    width:27px;
+    height:27px;
     background:url('../asset/undobutton.svg');
     background-size:contain;
     border:none;
@@ -193,8 +193,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .greenDone {
-    width : 30px;
-    height: 30px;
+    width : 27px;
+    height: 27px;
     background: url('../asset/checkbutton.svg');
     background-size:contain;
     border:none;
@@ -206,8 +206,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .redTrash {
-    width:30px;
-    height:30px;
+    width:27px;
+    height:27px;
     background: url('../asset/trashnone.svg');
     background-size:contain;
     border:none;
@@ -215,6 +215,19 @@ main{
 
 .book_shelf > .book_list > .book_item > .action > .redTrash:hover {
     background: url('../asset/trashicon.svg');
+    background-size:contain;
+}
+
+.book_shelf > .book_list > .book_item > .action > .blueEdit {
+    width:27px;
+    height:27px;
+    background: url('../asset/editbutton.svg');
+    background-size:contain;
+    border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .blueEdit:hover {
+    background: url('../asset/editsolid.svg');
     background-size:contain;
 }
 

@@ -112,9 +112,17 @@ function makeBookshelf(bookshelfObject) {
       removeBookshelfFromList(bookshelfObject.id);
     });
 
+    const blueEditButton = document.createElement('button');
+    blueEditButton.classList.add('blueEdit');
+
+    // function edit belum jadi
+    blueEditButton.addEventListener('click', function() {
+      editBookshelfOnList(bookshelfObject.id);
+    });
+
     const buttonActionContainer = document.createElement('div');
     buttonActionContainer.classList.add('action');
-    buttonActionContainer.append(greenDoneButton, redTrashButton);
+    buttonActionContainer.append(greenDoneButton, redTrashButton, blueEditButton);
 
     article.append(buttonActionContainer);
   }
