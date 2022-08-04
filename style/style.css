@@ -20,6 +20,7 @@ margin-left: -25px;
 border: solid black;
 box-shadow: 2.5px 2.5px 0.2px black;
 text-align: center;
+border-radius: 2px;
 }
 
 nav {
@@ -59,9 +60,14 @@ nav > ul > form >  li > button{
     background-color: #FF5C8D;
     cursor: pointer;
     box-shadow: 2.5px 2.5px 0.2px black;
-  /* text-transform: uppercase; */
     font-weight: 700;
-    color:white;
+    color:#100720;
+    border-radius:3px;
+}
+
+nav > ul > form > li > button:hover {
+    color:#FFFA4D;
+    box-shadow: 0.5px 0.5px 0.2px grey;
 }
 
 main{
@@ -101,6 +107,11 @@ main{
     box-shadow: 2.5px 2.5px 0.2px black;
     font-weight: 400;
     text-transform: uppercase;
+    border-radius:3px;
+}
+
+.input_section > form > button:hover {
+    box-shadow: 0.5px 0.5px 0.2px grey;
 }
 
 .input_section > form > button > span {
@@ -169,8 +180,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .undoGreen {
-    width:25px;
-    height:25px;
+    width:30px;
+    height:30px;
     background:url('../asset/undobutton.svg');
     background-size:contain;
     border:none;
@@ -182,8 +193,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .greenDone {
-    width : 25px;
-    height: 25px;
+    width : 30px;
+    height: 30px;
     background: url('../asset/checkbutton.svg');
     background-size:contain;
     border:none;
@@ -195,8 +206,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .redTrash {
-    width:25px;
-    height:25px;
+    width:30px;
+    height:30px;
     background: url('../asset/trashnone.svg');
     background-size:contain;
     border:none;
@@ -216,6 +227,7 @@ main{
     background-color:  #F7F5F2;;
     padding: 3px;
     height: 80px;
+    border-radius:2px;
 }
 
 #footer ul{
