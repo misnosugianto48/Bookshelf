@@ -188,7 +188,7 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .undoGreen:hover {
-    background: url('../asset/undobutton.svg');
+    background: url('../asset/undosolid.svg');
     background-size:contain;
 }
 
