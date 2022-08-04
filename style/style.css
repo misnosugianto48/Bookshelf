@@ -231,21 +231,18 @@ main{
 }
 
 #footer ul{
-
     display: flex;
     justify-content: flex-end;
 }
 
 #footer li {
-    padding: 0 20px;
+    padding: 0 10px;
     list-style: none;
-
 }
 
 #footer a{
     text-decoration: none;
     color: #0C1E7F;
-    font-weight: 700;
 }
 
 #footer h4{
@@ -254,5 +251,5 @@ main{
     justify-content: flex-end;
     font-size: 1em;
     color: #444;
-    padding: 0 20px;
+    padding: 0 10px;
 }
