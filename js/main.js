@@ -76,7 +76,7 @@ function makeBookshelf(bookshelfObject) {
   if (bookshelfObject.isCompleted) {
     const undoGreenButton = document.createElement('button');
     undoGreenButton.classList.add('undoGreen');
-    undoGreenButton.innerText = 'Belum Selesai dibaca';
+    // undoGreenButton.innerText = 'Belum Selesai dibaca';
 
     undoGreenButton.addEventListener('click', function() {
       undoBookshelfFromComplete(bookshelfObject.id);
@@ -84,7 +84,7 @@ function makeBookshelf(bookshelfObject) {
 
     const redTrashButton = document.createElement('button');
     redTrashButton.classList.add('redTrash');
-    redTrashButton.innerText = 'Hapus Buku';
+    // redTrashButton.innerText = 'Hapus Buku';
 
     redTrashButton.addEventListener('click', function() {
       removeBookshelfFromList(bookshelfObject.id);
@@ -98,7 +98,7 @@ function makeBookshelf(bookshelfObject) {
   } else {
     const greenDoneButton = document.createElement('button');
     greenDoneButton.classList.add('greenDone');
-    greenDoneButton.innerText = 'Selesai Dibaca';
+    // greenDoneButton.innerText = 'Selesai Dibaca';
 
     greenDoneButton.addEventListener('click', function() {
       addBookshelfToCompleteList(bookshelfObject.id);
@@ -106,7 +106,7 @@ function makeBookshelf(bookshelfObject) {
 
     const redTrashButton = document.createElement('button');
     redTrashButton.classList.add('redTrash');
-    redTrashButton.innerText =  'Hapus Buku';
+    // redTrashButton.innerText =  'Hapus Buku';
 
     redTrashButton.addEventListener('click', function() {
       removeBookshelfFromList(bookshelfObject.id);
