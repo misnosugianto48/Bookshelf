@@ -170,8 +170,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .undoGreen {
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
     background:url('../asset/undobutton.svg');
     background-size: contain;
     cursor:pointer;
@@ -184,8 +184,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .greenDone {
-    width : 40px;
-    height: 40px;
+    width : 20px;
+    height: 20px;
 
     background: url('../asset/checkbutton.svg');
     background-size:contain;
@@ -199,8 +199,8 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .redTrash {
-    width:40px;
-    height:40px;
+    width:20px;
+    height:20px;
     background: url('../asset/trashnone.svg');
     background-size:contain;
     margin-left:15px;
@@ -211,6 +211,10 @@ main{
 .book_shelf > .book_list > .book_item > .action > .redTrash:hover {
     background: url('../asset/trashicon.svg');
     background-size: contain;
+}
+
+.book_shelf > .book_list > .book_item > .action >.greenDone:focus, .redTrash {
+    outline:none;
 }
 
 #footer{
