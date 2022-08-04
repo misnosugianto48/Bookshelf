@@ -170,18 +170,47 @@ main{
 }
 
 .book_shelf > .book_list > .book_item > .action > .undoGreen {
-    background-color: #3EC70B;
-    color: white;
+    width:40px;
+    height:40px;
+    background:url('../asset/undobutton.svg');
+    background-size: contain;
+    cursor:pointer;
+    border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .undoGreen:hover {
+    background: url('../asset/undobutton.svg');
+    background-size:contain;
 }
 
 .book_shelf > .book_list > .book_item > .action > .greenDone {
-    background-color: #3EC70B;
-    color: white;
+    width : 40px;
+    height: 40px;
+
+    background: url('../asset/checkbutton.svg');
+    background-size:contain;
+    cursor: pointer;
+    border: none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .greenDone:hover{
+    background: url('../asset/checksolid.svg');
+    background-size: contain;
 }
 
 .book_shelf > .book_list > .book_item > .action > .redTrash {
-    background-color: #FF1C2C;
-    color: white;
+    width:40px;
+    height:40px;
+    background: url('../asset/trashnone.svg');
+    background-size:contain;
+    margin-left:15px;
+    cursor:pointer;
+    border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .redTrash:hover {
+    background: url('../asset/trashicon.svg');
+    background-size: contain;
 }
 
 #footer{
