@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BookShelf</title>
-  <link rel="stylesheet" href="/style/">
+  <link rel="stylesheet" href="/style/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap">
@@ -14,11 +14,13 @@
 <body>
   <!-- header -->
   <header id="header">
-    <h1>Bookshelf</h1>
-    <nav id="nav-bar">
+    <nav >
+      <h2>Bookshelf</h2>
       <ul>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Project</a></li>
+        <form id="searchBook">
+        <li> <input id="searchBookTitle" type="search" placeholder="Masukan Judul Buku"></li>
+        <li><button id="searchSubmit" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></li>
+      </form>
       </ul>
     </nav>
   </header>
@@ -51,6 +53,7 @@
 
     <!-- list item unread -->
     <section class="book_shelf">
+      <!-- unread -->
       <h2>Belum selesai dibaca</h2>
       <div id="incompleteBookshelfList" class="book_list">
       <article class="book_item" >
@@ -66,32 +69,29 @@
     </div>
     </section>
 
-    <!-- list item done -->
     <section class="book_shelf">
-      <h2>Selesai dibaca</h2>
-      <div id="completeBookshelfList" class="book_list">
-      <article class="book_item" >
-        <h3>Book Title</h3>
-        <p>Penulis :</p>
-        <p>Tahun :</p>
-        <div class="action">
-          <button class="undoGreen">Belum selesai dibaca</button>
-          <button class="redTrash"><i class="fa-solid fa-trash-can"></i></button>
-        </div>
-      </article>
-    </div>
-    </section>
-
-    <!-- footer -->
-    <section>
-      <footer id="footer">
-        <ul>
-          <li><a href="https://www.linkedin.com/in/misnosugianto48/"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
-          <li><a href="https://github.com/misnosugianto48"><i class="fa-brands fa-github fa-xl"></i></a></li>
-        </ul>
-        <h4>Copyright 2022, Dicoding Bookshelf Apps.</h4>
-      </footer>
+    <!-- list item done -->
+    <h2>Selesai dibaca</h2>
+    <div id="completeBookshelfList" class="book_list">
+    <article class="book_item" >
+      <h3>Book Title</h3>
+      <p>Penulis :</p>
+      <p>Tahun :</p>
+      <div class="action">
+        <button class="undoGreen">Belum selesai dibaca</button>
+        <button class="redTrash"><i class="fa-solid fa-trash-can"></i></button>
+      </div>
+    </article>
+  </div>
     </section>
   </main>
+  <!-- footer -->
+  <footer id="footer">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/misnosugianto48/"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+      <li><a href="https://github.com/misnosugianto48"><i class="fa-brands fa-github fa-xl"></i></a></li>
+    </ul>
+    <h4>Copyright 2022, Dicoding Bookshelf Apps.</h4>
+  </footer>
 </body>
 </html>

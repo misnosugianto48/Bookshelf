@@ -1,2 +1,246 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
+* {
+box-sizing: border-box;
+}
+
+body{
+margin: 0;
+padding: 0;
+}
+
+body, input, button {
+font-family: ' Lato', sans-serif;
+}
+
+header > nav > h2{
+  width: 200px;
+  margin-left: -25px;
+  box-shadow: 1px 1px 1px #000;
+  text-align: center;
+  border-radius: 50px;
+  color: #FF1E00;
+  }
+
+nav > h2:hover{
+  color:#FFFA4D;
+  transition-delay: 0.2s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    top: 0;
+    width: 100%;
+    }
+    
+    nav > ul > form{
+    display: flex;
+    list-style: none;
+    width:100%;
+    justify-content: space-around;
+    }
+
+nav > ul > form > li{
+  padding: 5px;
+  }
+
+nav > ul > form > li > input{
+  width: 230px;
+  padding: 3px;
+  height:30px;
+  border-radius: 30px;
+  color: #444;
+  outline: none;
+  border: none;
+  box-shadow:1px 1px 1px #000;
+}
+nav > ul > form >  li > button{
+width: 60px;
+height: 30px;
+padding: 3px;
+border: none;
+cursor: pointer;
+box-shadow: 1px 1px 0.2px #000;
+font-weight: 700;
+color:#FF1E00;
+border-radius:30px;
+background-color: #fff;
+}
+
+nav > ul > form > li > button:hover {
+color:#FFFA4D;
+box-shadow: 0.5px 0.5px 1px grey;
+}
+
+main{
+  max-width:1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding:10px;
+  display:flex;
+  justify-content: center;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 5px;
+  background: #E8F9FD;
+  box-shadow: 2px 1px 2px grey;
+  margin: 0 auto;
+  width:350px;
+}
+
+.input_section > h2 {
+  text-align: center;
+  color: #FF1E00;
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+}
+
+.input_section > form > button {
+  background-color: #fff;
+  color: #FF1E00;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  box-shadow: 1px 1px 0.2px #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius:30px;
+}
+
+.input_section > form > button:hover {
+  box-shadow: 0.5px 0.5px 1px grey;
+}
+
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  box-shadow:1px 1px 0.2px #000;
+}
+
+.input_section > form > .input > label {
+  color: #FF1E00;
+  font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  color: #0C1E7F;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.book_shelf {
+  margin: 0 auto;
+  padding: 16px;
+  border-radius: 5px;
+  background:#E8F9FD;
+  height: 80vh;
+  width:400px;
+}
+
+.book_shelf > h2 {
+  color: #FF1E00;
+}
+
+.book_shelf > .book_list {
+  padding: 10px;
+}
+
+.book_shelf > .book_list > .book_item {
+  width: 50%;
+  padding: 5px 10px 10px 10px;
+  border: 1px solid #FF5C8D;
+  border-radius: 5px;
+  margin: 10px 0;
+  background:#FFC0D3;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+  margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 7px 0 0;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.book_shelf > .book_list > .book_item > .action > .undoGreen {
+  width:27px;
+  height:27px;
+  background:url('../asset/undobutton.svg');
+  background-size:contain;
+  border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .undoGreen:hover {
+  background: url('../asset/undosolid.svg');
+  background-size:contain;
+}
+
+.book_shelf > .book_list > .book_item > .action > .greenDone {
+  width : 27px;
+  height: 27px;
+  background: url('../asset/checkbutton.svg');
+  background-size:contain;
+  border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .greenDone:hover{
+  background: url('../asset/checksolid.svg');
+  background-size:contain;
+}
+
+.book_shelf > .book_list > .book_item > .action > .redTrash {
+  width:27px;
+  height:27px;
+  background: url('../asset/trashnone.svg');
+  background-size:contain;
+  border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .redTrash:hover {
+  background: url('../asset/trashicon.svg');
+  background-size:contain;
+}
+
+.book_shelf > .book_list > .book_item > .action > .blueEdit {
+  width:27px;
+  height:27px;
+  background: url('../asset/editbutton.svg');
+  background-size:contain;
+  border:none;
+}
+
+.book_shelf > .book_list > .book_item > .action > .blueEdit:hover {
+  background: url('../asset/editsolid.svg');
+  background-size:contain;
+}
+
+.book_shelf > .book_list > .book_item > .action >.greenDone:focus, .redTrash {
+  outline:none;
+}
