@@ -190,6 +190,11 @@ function undoBookshelfFromComplete(bookshelfId) {
   saveData();
 }
 
+// mengedit buku
+function editBookshelfOnList(bookshelfId) {
+
+}
+
 function saveData() {
   if (isStorageExist()) {
     const parsed = JSON.stringify(bookshelfs);
