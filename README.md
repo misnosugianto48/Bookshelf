@@ -7,3 +7,5 @@ terdapat fungsionalitas memindahkan antar rak buku
 terdapat fungsionalitas pencarian buku berdasarkan judul buku
 terdapat fungsionalitas menghapus buku dari rak
 terdapat fungsionalitas data save menggunakan JSON
+
+link untuk demo https://Bookshelf-Apps.misnosugianto48.repl.co
