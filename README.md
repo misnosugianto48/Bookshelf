@@ -1,11 +1,6 @@
 # Dicoding-Submission
-Tugas Akhir Submission Dicoding Academy 
-Belajar membuat Front-End Web Pemula
-Aplikasi Pengelolaan Data Pembacaan Buku
-Tersedia 2 rak buku belum dibaca dan sudah dibaca
-terdapat fungsionalitas memindahkan antar rak buku
-terdapat fungsionalitas pencarian buku berdasarkan judul buku
-terdapat fungsionalitas menghapus buku dari rak
-terdapat fungsionalitas data save menggunakan JSON
+  Tugas Akhir Submission Dicoding Academy 
+# Belajar membuat Front-End Web Pemula
+Aplikasi Pengelolaan Data Pembacaan Buku, Web App ini memiliki 2 kategori rak buku, memiliki fitur pemindahan buku antar rak, menghapus data buku, mencari data buku, penyimpanan menggunakan local storage. 
 
 link untuk demo https://Bookshelf-Apps.misnosugianto48.repl.co
